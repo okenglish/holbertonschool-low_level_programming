@@ -9,11 +9,11 @@
 
 int main(void)
 {
-	char alph;
+	char alphaz;
 
-	for (alph = 'z' ; alph >= 'a' ; alph--)
+	for (alphaz = 'z' ; alphaz >= 'a' ; alphaz--)
 	{
-		putchar(alph);
+		putchar(alphaz);
 	}
 
 	putchar('\n');
