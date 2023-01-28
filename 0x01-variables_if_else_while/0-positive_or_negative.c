@@ -2,17 +2,22 @@
 #include <time.h>
 #include <stdlib.h>
 /**
-  *main - positive and negative
-  values of variable n
-  return: always 0
-  */
+  * main - Entry point
+ *
+ * Return: Always 0
+ */
 
 int main(void)
+
 {
 	int n;
+
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
-	if (n == 0)
+
+	if (n == 0
+			)
 	{
 		printf("%d is zero\n", n);
 	}
