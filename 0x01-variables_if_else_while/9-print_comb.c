@@ -1,24 +1,24 @@
 #include <stdio.h>
 /**
-  * main - Entry point
-  *
-  * Return - Always 0
-  */
+ * main - Entry point
+ *
+ * Return - Always 0
+ */
 
 int main(void)
 {
-	int c;
-	for (c = 0; c <= 9; c++)
-
+	int num;
+	for (num = '0'; num <= '9'; num++)
 	{
-		putchar('0' + c);
-		if (c != 9)
+		putchar(num);
+		if (num < '9')
 		{
 
 			putchar(',');
 			putchar(' ');
-		}
+		}	
 	}
-	putchar('\n');
+	putchar ('\n');
+	
 	return (0);
 }
