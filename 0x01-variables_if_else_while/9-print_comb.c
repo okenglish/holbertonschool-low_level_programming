@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * description - not sure 
- *
- * Return - Always 0
- */
+* main - Entry point
+*
+* description - not sure
+*
+* Return - Always 0
+*/
 
 int main(void)
 {
